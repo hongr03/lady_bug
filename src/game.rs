@@ -19,7 +19,7 @@ impl Game {
     pub fn new() -> Self {
         let sc = sdl2::init().unwrap();
         let vs = sc.video().unwrap();
-        let win = vs.window("Hello World", Self::WIN_WIDTH, Self::WIN_HEIGHT)
+        let win = vs.window("Lady Bug", Self::WIN_WIDTH, Self::WIN_HEIGHT)
             .position_centered()
             .build()
             .unwrap();
